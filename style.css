@@ -1,3 +1,12 @@
+*
+{
+    display: block;
+
+}
+.inputfield:active
+{
+border: 1px solid blue;
+}
 input
 {
     border: 1px solid silver;
@@ -5,25 +14,69 @@ input
 }
 div
 {
-    position: relative;
-    left: 400px;
-    top: 200px;
+width: 100%;
+height: 100%;
+align-items: center;
+
     
 }
-span{
+.text{
     color: lightseagreen;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     font-style: normal;
-    letter-spacing: 10px;
-    
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 200px;  
 }
 .inputfield
 {
-    border-radius: 15%;
-    width: 350px;
-    height: 10px;
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    border-radius: 35px;
+    font-size: 30px;
+    width: 500px;
+    height: 30px;
+    margin: auto;
+}
+.searchbutton
+{
+    margin: auto;
+    height: 40px;
+    background-color: darkslategrey;
+    font-size: medium;
+    border-radius: 50px;
+    
+}
+.searchbuttonA1
+{
+    
+    height: 40px;
+    background-color: darkslategrey;
+    font-size: medium;
+    border-radius: 50px;
+    float: left;
+
+    margin-left: 40%;
+}
+.searchbuttonA2
+{
+    
+    height: 40px;
+    background-color: darkslategrey;
+    font-size: medium;
+    border-radius: 50px;
+    float: left;
+
+    
+}
+.advancedinput
+{
+    width: 90%;
+    height: 30px;
+
+    margin-bottom: 30px;   
+}
+.buttons
+{
+    display: inline;
 }
